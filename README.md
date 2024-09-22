@@ -406,10 +406,6 @@ PermitRootLogin yes
 
 ## System configuration
 
-### BTRFS weekly snapshots
-
-TODO
-
 ### Custom pacman configuration
 
 Edit the `pacman.conf` file:
@@ -698,13 +694,6 @@ Install the window manager:
 
 ```bash
 pacman -S hyprland
-```
-
-The structure of the configuration files is as follows:
-
-```bash
-~/.config/hypr
-TODO
 ```
 
 ### App launcher
