@@ -847,7 +847,18 @@ ufw enable
 
 ## Antivirus
 
+To update the ClamAV database:
 
+```bash
+sudo freshclam
+```
+
+Enable the ClamAV service:
+
+```bash
+systemctl --now enable clamav-freshclam
+systemctl --now enable clamav-daemon
+```
 
 ## Locking root account
 
