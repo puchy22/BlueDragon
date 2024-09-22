@@ -824,6 +824,10 @@ Packages from AUR:
     - whatweb (web scanner)
     - wordlists (wordlists for password cracking stored in `/usr/share/wordlists`)
 
+```bash
+paru -S whatweb wordlists
+```
+
 ## Firewall
 
 Enable the UFW service:
@@ -850,7 +854,7 @@ ufw enable
 To update the ClamAV database:
 
 ```bash
-sudo freshclam
+freshclam
 ```
 
 Enable the ClamAV service:
