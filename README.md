@@ -533,6 +533,7 @@ List of common packages:
     - easyeffects (pipewire audio effects)
 - **Media**:
     - parole (media player)
+    - libsixel (image converter to DEC SIXEL graphics, integrations with foot terminal)
 - **Browser**:
     - chromium (browser)
 - **File Managers**:
@@ -571,7 +572,7 @@ Install the packages:
 ```bash
 pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk
 pacman -S pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects
-pacman -S parole
+pacman -S parole libsixel
 pacman -S chromium
 pacman -S thunar gvfs thunar-volman thunar-archive-plugin
 pacman -S code obsidian
@@ -582,7 +583,7 @@ pacman -S flameshot okular gimp networkmanager-openvpn fprintd
 If want to install in the same command:
 
 ```bash
-pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects parole chromium thunar gvfs thunar-volman thunar-archive-plugin code obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns flameshot okular gimp networkmanager-openvpn fprintd
+pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin code obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns flameshot okular gimp networkmanager-openvpn fprintd
 ```
 
 Install the AUR packages:
