@@ -561,7 +561,8 @@ List of common packages:
     - passt (default rootless network backend)
     - slirp4netns (networking tool for rootless containers)
 - **Other Utilities**:
-    - flameshot (screenshot tool)
+    - grim (screenshot tool)
+    - hyprpicker (color picker tool)
     - okular (document viewer)
     - gimp (image editor)
     - networkmanager-openvpn (OpenVPN plugin)
@@ -577,17 +578,18 @@ pacman -S chromium
 pacman -S thunar gvfs thunar-volman thunar-archive-plugin
 pacman -S code obsidian
 pacman -S qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns
-pacman -S flameshot okular gimp networkmanager-openvpn fprintd
+pacman -S grim hyprpicker okular gimp networkmanager-openvpn fprintd
 ```
 
 If want to install in the same command:
 
 ```bash
-pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin code obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns flameshot okular gimp networkmanager-openvpn fprintd
+pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin code obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd
 ```
 
 Install the AUR packages:
 
+- hyprshot (screenshot wrapper for Hyprland)
 - librewolf-bin (browser)
 - notion-app-electron (note-taking app)
 - webcord (Discord client)
@@ -595,7 +597,7 @@ Install the AUR packages:
 
 ```bash
 su puchy    # paru cannot be executed by root
-paru -S librewolf-bin notion-app-electron webcord-bin oh-my-posh-bin
+paru -S hyprshot librewolf-bin notion-app-electron webcord-bin oh-my-posh-bin
 ```
 
 ## Additional configuration
