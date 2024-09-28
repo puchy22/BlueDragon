@@ -1,4 +1,4 @@
-# HackArchLinux 
+# BlueDragon 
 
 ## TL;DR
 
@@ -593,12 +593,12 @@ Install the AUR packages:
 - hyprshot (screenshot wrapper for Hyprland)
 - librewolf-bin (browser)
 - notion-app-electron (note-taking app)
-- webcord (Discord client)
+- webcord-git (Discord client)
 - oh-my-posh-bin (promt engine for shell)
 
 ```bash
 su puchy    # paru cannot be executed by root
-paru -S hyprshot librewolf-bin notion-app-electron webcord-bin oh-my-posh-bin
+paru -S hyprshot librewolf-bin notion-app-electron webcord-git oh-my-posh-bin
 ```
 
 ## Additional configuration
