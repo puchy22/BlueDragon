@@ -509,6 +509,7 @@ List of common packages:
     - plocate (locate tool)
     - wget (download tool)
     - fastfetch (system information tool)
+    - stow 
     - iptables-nft (Linux kernel packet control tool (using nft interface))
     - dnsmasq (lightweight, easy to configure DNS forwarder and DHCP server)
     - ufw (uncomplicated firewall)
@@ -542,7 +543,6 @@ List of common packages:
     - thunar-volman (Thunar volume manager)
     - thunar-archive-plugin (Thunar archive plugin)
 - **Text Editors**:
-    - code (code editor)
     - obsidian (note-taking app)
 - **Virtualization**:
     - qemu-desktop (virtualization, only x86_64)
@@ -577,7 +577,7 @@ pacman -S pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easye
 pacman -S parole libsixel
 pacman -S chromium
 pacman -S thunar gvfs thunar-volman thunar-archive-plugin
-pacman -S code obsidian
+pacman -S obsidian
 pacman -S qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns
 pacman -S grim hyprpicker okular gimp networkmanager-openvpn fprintd
 ```
@@ -585,11 +585,12 @@ pacman -S grim hyprpicker okular gimp networkmanager-openvpn fprintd
 If want to install in the same command:
 
 ```bash
-pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin code obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd
+pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd
 ```
 
 Install the AUR packages:
 
+- vscodium-bin (Free/Libre Open Source Software Binaries of VSCode)
 - hyprshot (screenshot wrapper for Hyprland)
 - librewolf-bin (browser)
 - notion-app-electron (note-taking app)
@@ -598,7 +599,7 @@ Install the AUR packages:
 
 ```bash
 su puchy    # paru cannot be executed by root
-paru -S hyprshot librewolf-bin notion-app-electron webcord-git oh-my-posh-bin
+paru -S vscodium-bin hyprshot librewolf-bin notion-app-electron webcord-git oh-my-posh-bin
 ```
 
 ## Additional configuration
