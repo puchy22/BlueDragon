@@ -1,0 +1,162 @@
+{
+  "custom/arch-logo": {
+    "format": " \uf303 ",
+    "tooltip": false
+  },
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "active-only": false,
+    "format": "<big>{icon} {windows}</big>",
+    "format-icons": {
+      "active": "\uf192",
+      "empty": "\uf10c",
+      "default": "\uf10c"
+    },
+    "persistent-workspaces": {
+      "eDP-1": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "window-rewrite-default": "\uf059",
+    "window-rewrite": {
+      "title<.*youtube.*>": "\uf16a",
+      "title<.*github.*>": "\uf113",
+      "title<.*chatgpt.*>": "\uec1e",
+      "class<librewolf>": "\udb80\ude39",
+      "class<chromium>": "\uf268",
+      "foot": "\ue795",
+      "class<codium-url-handler>": "",
+      "thunar": "\udb80\ude4b"
+    }
+  },
+  "clock": {
+    "tooltip-format": "{calendar}",
+    "format-alt": "<big>\ueab0</big>  {%a, %d %b %Y}",
+    "format": "<big>\uf43a</big>  {:%H:%M}",
+    "calendar": {
+      "mode": "year",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "days": "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  },
+  "cpu": {
+    "format": "{usage}% <big>\uf2db</big>",
+    "tooltip": false
+  },
+  "memory": {
+    "interval": 5,
+    "format": "{}% <big>\uefc5</big>",
+    "max-length": 10
+  },
+  "disk": {
+    "interval": 30,
+    "format": "{percentage_used}% <big>\uf0c7</big>",
+    "path": "/"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{percent}% <big>{icon}</big>",
+    "format-icons": [
+      "\ue38d",
+      "\ue3d3",
+      "\ue3d1",
+      "\ue3cf",
+      "\ue3ce",
+      "\ue3cd",
+      "\ue3ca",
+      "\ue3c8",
+      "\ue39b"
+    ],
+    "tooltip": false
+  },
+  "wireplumber": {
+    "format": "<big>{icon}</big> {volume}%",
+    "tooltip-format": "Volume: {volume}%",
+    "format-muted": "\ueee8",
+    "format-icons": {
+      "headphone": "\uf025",
+      "default": [
+        "\uf026",
+        "\uf027",
+        "\uf028"
+      ]
+    },
+    "scroll-step": 1
+  },
+  "network": {
+    "format-wifi": "<big>{icon}</big>",
+    "format-icons": [
+      "\udb82\udd2f",
+      "\udb82\udd1f",
+      "\udb82\udd22",
+      "\udb82\udd25",
+      "\udb82\udd28"
+    ],
+    "format-ethernet": "\uef44",
+    "format-alt": "\udb85\udec7",
+    "format-disconnected": "\udb81\uddaa",
+    "tooltip-format-wifi": "{icon} {essid}\n\u21e3 {bandwidthDownBytes}  \u21e1 {bandwidthUpBytes}",
+    "tooltip-format-ethernet": "\uef44  {ifname}\n\u21e3 {bandwidthDownBytes}  \u21e1 {bandwidthUpBytes}",
+    "tooltip-format-disconnected": "Disconnected",
+    "interval": 5,
+    "nospacing": 1
+  },
+  "battery": {
+    "format": "{capacity}% <big>{icon}</big>",
+    "format-icons": {
+      "charging": [
+        "\udb82\udc9c",
+        "\udb80\udc86",
+        "\udb80\udc87",
+        "\udb80\udc88",
+        "\udb82\udc9d",
+        "\udb80\udc89",
+        "\udb82\udc9e",
+        "\udb80\udc8a",
+        "\udb80\udc8b",
+        "\udb80\udc85"
+      ],
+      "default": [
+        "\udb80\udc7a",
+        "\udb80\udc7b",
+        "\udb80\udc7c",
+        "\udb80\udc7d",
+        "\udb80\udc7e",
+        "\udb80\udc7f",
+        "\udb80\udc80",
+        "\udb80\udc81",
+        "\udb80\udc82",
+        "\udb80\udc79"
+      ]
+    },
+    "format-full": "Charged \uf0e7",
+    "interval": 5,
+    "states": {
+      "warning": 20,
+      "critical": 10
+    },
+    "tooltip": false
+  }
+}

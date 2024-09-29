@@ -1,0 +1,33 @@
+{
+    // General Settings
+    "layer": "top",
+    "min-height": "500px",
+    "reload_style_on_change": true,
+
+    // Load Modules
+    "include": [
+        "~/.config/waybar/modules.jsonc"
+    ],
+
+    // Modules Left
+    "modules-left": [
+        "custom/arch-logo",
+        "hyprland/workspaces"
+    ],
+
+    // Modules Center
+    "modules-center": [
+        "clock"
+    ],
+
+    // Modules Right    
+    "modules-right": [
+        "cpu",
+        "memory",
+        "disk",
+        "backlight",
+        "wireplumber",
+        "network",
+        "battery"
+    ]
+}

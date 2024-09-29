@@ -1,0 +1,16 @@
+# Ignore everything in the root except some files from the dotfiles directory
+/*
+!/.gitignore
+# Unignore the dotfiles directory to include the files we want
+!/dotfiles
+/dotfiles/*
+!/dotfiles/.zshrc
+# Unignore the .config directory to include the files we want
+!/dotfiles/.config
+/dotfiles/.config/*
+!/dotfiles/.config/foot/
+!/dotfiles/.config/fastfetch/
+!/dotfiles/.config/hypr/
+!/dotfiles/.config/waybar/
+!/dotfiles/.config/swaync/
+!/dotfiles/.config/ohmyposh/

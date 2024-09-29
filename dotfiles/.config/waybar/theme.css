@@ -1,0 +1,7 @@
+@define-color main_bg #11111b;
+@define-color main_fg #5dd6f4;
+
+@define-color workspace_not_focus #fcfcfc;
+@define-color workspace_focus #5dd6f4;
+
+@define-color workspace_hover #a2a2b5;

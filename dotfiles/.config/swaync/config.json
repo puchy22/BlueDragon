@@ -1,0 +1,10 @@
+{
+  "notification-visibility": {
+    "mute-new-foot": {
+      "state": "ignored",
+      "app-name": "foot",
+      "summary": "9",
+      "urgency": "Normal"
+    }
+  }
+}
