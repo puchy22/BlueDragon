@@ -509,7 +509,7 @@ List of common packages:
     - plocate (locate tool)
     - wget (download tool)
     - fastfetch (system information tool)
-    - stow 
+    - stow (symlink farm manager)
     - iptables-nft (Linux kernel packet control tool (using nft interface))
     - dnsmasq (lightweight, easy to configure DNS forwarder and DHCP server)
     - ufw (uncomplicated firewall)
@@ -572,7 +572,7 @@ List of common packages:
 Install the packages:
 
 ```bash
-pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk
+pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch stow thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk
 pacman -S pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects
 pacman -S parole libsixel
 pacman -S chromium
@@ -585,7 +585,7 @@ pacman -S grim hyprpicker okular gimp networkmanager-openvpn fprintd
 If want to install in the same command:
 
 ```bash
-pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd
+pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch stow thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd
 ```
 
 Install the AUR packages:
