@@ -753,8 +753,6 @@ DisplayServer=wayland
 GreeterEnvironment=QT_WAYLAND_SHELL_INTEGRATION=layer-shell
 ```
 
-```bash
-
 Enable the display manager:
 
 ```bash
