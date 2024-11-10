@@ -568,6 +568,7 @@ List of common packages:
     - networkmanager-openvpn (OpenVPN plugin)
     - fprintd (fingerprint manager)
     - nwg-look (GTK theme manager)
+    - gnumeric (spreadsheet editor)
 
 Install the packages:
 
@@ -579,13 +580,13 @@ pacman -S chromium
 pacman -S thunar gvfs thunar-volman thunar-archive-plugin
 pacman -S obsidian
 pacman -S qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns
-pacman -S grim hyprpicker okular gimp networkmanager-openvpn fprintd
+pacman -S grim hyprpicker okular gimp networkmanager-openvpn fprintd nwg-look gnumeric
 ```
 
 If want to install in the same command:
 
 ```bash
-pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch stow thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd
+pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch stow thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd nwg-look gnumeric
 ```
 
 Install the AUR packages:
@@ -817,9 +818,10 @@ Packages from AUR:
 - **Pentesting Tools**:
     - whatweb (web scanner)
     - wordlists (wordlists for password cracking stored in `/usr/share/wordlists`)
+    - burpsuite (security testing of web applications)
 
 ```bash
-paru -S whatweb wordlists
+paru -S whatweb wordlists burpsuite
 ```
 
 ## Firewall
