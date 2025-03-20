@@ -516,6 +516,10 @@ List of common packages:
     - brightnessctl (control bright of screen)
     - rye (multi tool for managing python)
     - jre-openjdk (latest Java for applications)
+    - chrony (NTP client and server)
+    - bluez (Bluetooth protocol stack)
+    - bluez-utils (Bluetooth protocol stack utilities)
+    - blueman (Bluetooth manager)
     - **Modern UNIX CLI tools**:
         - lsd (ls tool alternative)
         - zoxide (cd tool alternative)
@@ -569,24 +573,25 @@ List of common packages:
     - fprintd (fingerprint manager)
     - nwg-look (GTK theme manager)
     - gnumeric (spreadsheet editor)
+    - github-cli (GitHub CLI)
 
 Install the packages:
 
 ```bash
-pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch stow thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk
+pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch stow thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk chrony bluez bluez-utils
 pacman -S pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects
 pacman -S parole libsixel
 pacman -S chromium
 pacman -S thunar gvfs thunar-volman thunar-archive-plugin
 pacman -S obsidian
 pacman -S qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns
-pacman -S grim hyprpicker okular gimp networkmanager-openvpn fprintd nwg-look gnumeric
+pacman -S grim hyprpicker okular gimp networkmanager-openvpn fprintd nwg-look gnumeric github-cli
 ```
 
 If want to install in the same command:
 
 ```bash
-pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch stow thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd nwg-look gnumeric
+pacman -S tar unzip zip unrar p7zip xarchiver findutils plocate bat zoxide lsd broot fzf htop wget tree fastfetch stow thefuck iptables-nft dnsmasq ufw brightnessctl jq rye jre-openjdk chrony bluez bluez-utils pipewire pipewire-audio pipewire-alsa wireplumber pipewire-pulse easyeffects libsixel chromium thunar gvfs thunar-volman thunar-archive-plugin obsidian qemu-desktop libvirt virt-manager dnsmasq openbsd-netcat vde2 bridge-utils podman buildah fuse-overlayfs netavark aardvark-dns podman-compose passt slirp4netns grim hyprpicker okular gimp networkmanager-openvpn fprintd nwg-look gnumeric github-cli
 ```
 
 Install the AUR packages:
