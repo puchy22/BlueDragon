@@ -83,3 +83,6 @@ source /home/puchy/.config/broot/launcher/bash/br
 
 eval "$(zoxide init --cmd cd zsh)"
 
+
+# Created by `pipx` on 2024-10-05 17:35:11
+export PATH="$PATH:/home/puchy/.local/bin"
