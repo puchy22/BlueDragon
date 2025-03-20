@@ -13,12 +13,14 @@
       "default": "\uf10c"
     },
     "persistent-workspaces": {
-      "eDP-1": [
+      "DP-3": [
         1,
         2,
         3,
         4,
-        5,
+        5
+      ],
+      "eDP-1": [
         6,
         7,
         8,
@@ -34,8 +36,13 @@
       "class<librewolf>": "\udb80\ude39",
       "class<chromium>": "\uf268",
       "foot": "\ue795",
-      "class<codium-url-handler>": "",
-      "thunar": "\udb80\ude4b"
+      "class<codium>": "\uf372",
+      "thunar": "\udb80\ude4b",
+      "class<Notion>": "\ue678",
+      "class<notion-calendar-electron>": "\uf455",
+      "class<obsidian>": "\uf249",
+      "class<Webcord>": "\uf1ff",
+      "class<1Password>": "\uf023"
     }
   },
   "clock": {
